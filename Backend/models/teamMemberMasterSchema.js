@@ -41,4 +41,4 @@ const teamMemberMasterSchema = new schema({
     }
 },{timestamps: true})
 const teammemberMaster = mongoose.model('teammemberMaster')
-module.exports = teammemberMaster
+export default teammemberMaster;

@@ -23,4 +23,4 @@ const countryMasterSchema = new schema({
 
 }, {timestamps: true})
 const countryMaster = mongoose.model('countryMaster',)
-module.exports = countryMaster
+export default countryMaster;

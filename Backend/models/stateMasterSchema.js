@@ -38,4 +38,4 @@ const stateMasterSchema = new Schema({
 
 },{timestamps:true})
 const sateMaster = mongoose.model('stateMaster',)
-module.exports = stateMaster
+export default stateMaster;

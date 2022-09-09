@@ -22,4 +22,4 @@ const TeamMasterSchema = new schema({
 },{timestamps: true})
 
 const TeamSchema = mongoose.model('TeamMaster',userSchema)
-module.exports = TeamMaster
+export default TeamMaster

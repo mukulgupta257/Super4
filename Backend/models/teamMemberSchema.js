@@ -35,4 +35,4 @@ const teamMemberSchema = new schmea({
 }, {timestamps: true})
 
 const teammember = mongoose.model('teammember',userSchema)
-module.exports = teammember
+export default teammember

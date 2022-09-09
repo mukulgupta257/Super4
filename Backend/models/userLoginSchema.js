@@ -23,4 +23,5 @@ const UserSchema = new mongoose.Schema(
 );
 
 const userLogin = mongoose.model("userLogin", UserSchema);
-module.exports = userLogin;
+export default userLogin;
+

@@ -68,4 +68,4 @@ const transationSchema = new schema({
 
 
 const transation = mongoose.model('transation',)
-module.exports = transation
+export default transation
